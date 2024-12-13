@@ -27,7 +27,7 @@
     - Use docker pull to obtain bin file (https://docs.docker.com/reference/cli/docker/image/pull/ + https://docs.docker.com/reference/cli/docker/container/cp/ ).
 
             docker pull chiicuhk/fetalseq_cuhk:latest #pull image
-            dock run -it chiicuhk/fetalseq_cuhk:latest sh
+            docker run -it chiicuhk/fetalseq_cuhk:latest sh
             ls bin/ #show files in container
             exit  #exit container
             docker ps -a #show and copy container ID
